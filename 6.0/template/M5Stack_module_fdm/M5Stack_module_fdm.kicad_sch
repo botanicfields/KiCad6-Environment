@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (date "2022-10-22")
+    (date "2022-10-23")
   )
 
   (lib_symbols
@@ -7391,7 +7391,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x15_Odd_Even") (at 232.41 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f53ca6a9-a3d5-4b49-96ba-0af877934a36)
-    (property "Reference" "U1" (id 0) (at 231.14 16.0782 0))
+    (property "Reference" "J1" (id 0) (at 231.14 16.0782 0))
     (property "Value" "M-BUS" (id 1) (at 231.14 18.3896 0))
     (property "Footprint" "@bf:BF@M5Stack_MBUS" (id 2) (at 232.41 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7491,7 +7491,7 @@
       (reference "H8") (unit 1) (value "MountingHole") (footprint "@bf:BF@MountingHole_2.2mm_M2")
     )
     (path "/f53ca6a9-a3d5-4b49-96ba-0af877934a36"
-      (reference "U1") (unit 1) (value "M-BUS") (footprint "@bf:BF@M5Stack_MBUS")
+      (reference "J1") (unit 1) (value "M-BUS") (footprint "@bf:BF@M5Stack_MBUS")
     )
   )
 )
